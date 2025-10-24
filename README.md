@@ -73,3 +73,14 @@ This repository is intentionally designed to be extensible.  Here are some ideas
 ## License
 
 This project is released under the MIT License.  Feel free to reuse the code and dataset for educational or portfolio purposes.
+
+## Usage
+
+After launching the notebook, run the cells in sequence to explore the dataset and run the predictive models. The notebook will:
+
+- Display descriptive statistics and histograms for each feature.
+- Produce a correlation heatmap to visualize relationships between variables.
+- Fit a logistic regression classifier to predict project success and show accuracy and a confusion matrix.
+- Fit a random forest regressor to estimate ROI and report the mean squared error (MSE) and the R^2 score.
+
+Feel free to experiment by tuning the models or replacing `synthetic_project_data.csv` with your own data (ensure the column names match or adapt the code accordingly). The analysis notebook is a starting point—you can add new models, features or visualizations as part of your portfolio.
